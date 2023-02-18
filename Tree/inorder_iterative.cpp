@@ -30,11 +30,6 @@ vector<int>inOrderTraversal(Node* root){
     return inorder;
 }
 int main(){
-#ifndef ONLINE_JUDGE
-        freopen("input.txt","r",stdin);
-        freopen("output.txt","w",stdout);
-    #endif
-
      Node *root=new Node(10);
 	root->left=new Node(20);
 	root->right=new Node(30);
