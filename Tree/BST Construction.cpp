@@ -34,13 +34,12 @@ struct TreeNode{
         if(root==NULL)
         return 0;
         if(root->key==target){
-            //cout<<"target is present in the tree\n";
             return 1;
         }
         search(root->left,target);
         search(root->right,target);
-        // cout<<"target is not present in the tree\n";
     }
+//This function creates the BST 
     TreeNode*insert(TreeNode*root,int y){
         if(root==NULL)
         return new TreeNode(y);
