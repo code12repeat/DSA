@@ -1,3 +1,4 @@
+https://www.codingninjas.com/studio/problems/maximum-xor_973113?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos&leftPanelTabValue=PROBLEM
 class Node{
     public:
     Node*links[2];
